@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Biomedic Farma</title>
+</head>
+
+
+<body>
+  <!-- Main Banner -->
+  <section class="section mainBackground">
+    <nav class="navbar menu px-6 is-hidden-mobile" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img class="is-hidden-mobile" src="src/logoLetras.png" width="257" height="40">
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" onclick="scrollToCustom('Inicio')">
+            <p style="text-align: center;width: 100%;">
+              Inicio
+            </p>
+          </a>
+          <a class="navbar-item" onclick="scrollToCustom('Nosotros')">
+            <p style="text-align: center;width: 100%;">
+              Nosotros
+            </p>
+          </a>
+          <a class="navbar-item" onclick="scrollToCustom('Ubicacion')">
+            <p style="text-align: center;width: 100%;">
+              Ubicación
+            </p>
+          </a>
+          <a class="navbar-item" onclick="scrollToCustom('Ubicacion')">
+            <p style="text-align: center;width: 100%;">
+              Contacto
+            </p>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container" id="Inicio">
+      <div class="columns">
+        <div class="column is-one-third has-text-centered logoPading">
+          <img class="image logo" src="src/logo.png" alt="">
+          <h1 class="title biomedicColor">
+            Tu <span class="has-text-weight-bold">farmacia</span> de confianza
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Primera numeración -->
+  <section class="section p-0" id="Nosotros">
+    <div class="columns">
+      <div class="column is-10 is-offset-1">
+        <section class="section">
+          <div class="columns">
+            <div class="column has-text-centered-mobile">
+              <p class="title biomedicColor is-2 pt-6 mt-6" style="align-items: center; justify-content: center;">
+                <span class="has-text-weight-bold">Trabajamos</span> de manera directa con laboratios nacionales y
+                extranjeros. <span class="has-text-weight-bold">Contamos</span> con socios comerciales en todo el
+                territorio
+                nacional.
+              </p>
+            </div>
+            <div class="column">
+              <div class="columns">
+                <div class="column">
+                  <section class="section px-0 has-text-right has-text-centered-mobile">
+                    <p class="number">
+                      1
+                    </p>
+                  </section>
+                  <p class="is-size-5 biomedicColor has-text-centered-mobile">Comercializamos medicamentos de alta
+                    especialidad a
+                    hospitalesprivados
+                    y de Gobierno</p>
+                </div>
+                <div class="column">
+                  <section class="section px-0 has-text-right has-text-centered-mobile">
+                    <p class="number altcolor">
+                      2
+                    </p>
+                  </section>
+                  <p class="is-size-5 biomedicColor has-text-centered-mobile">Venta y distribución a nivel nacional de
+                    medicamentos de uso
+                    hospitalario y de alta especialidad para enfermedades de cáncer, SIDA, leucemia, insuficiencia renal
+                    crónica, trasplantes de órganos, hemorragias del tubo digestivo y fístulas, terapias hormonales,
+                    evento vascular cerebral, entre otras</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <!-- Segunda numeración -->
+  <section class="section p-0">
+    <div class="columns">
+      <div class="column is-10 is-offset-1">
+        <section class="section">
+          <div class="columns">
+            <div class="column has-text-centered is-hidden-desktop">
+              <p class="title biomedicColor is-3" style="align-items: center; justify-content: center;">
+                <span class="has-text-weight-bold">¿POR QUÉ SOMOS TU MEJOR OPCIÓN?</span>
+              </p>
+            </div>
+            <div class="column">
+              <div class="columns">
+                <div class="column">
+                  <section class="section px-0 has-text-right has-text-centered-mobile">
+                    <p class="number">
+                      1
+                    </p>
+                  </section>
+                  <p class="is-size-5 biomedicColor has-text-centered-mobile">Personal con experiencia en el ramo y
+                    constantemente capacitado</p>
+                </div>
+                <div class="column">
+                  <section class="section px-0 has-text-right has-text-centered-mobile">
+                    <p class="number altcolor">
+                      2
+                    </p>
+                  </section>
+                  <p class="is-size-5 biomedicColor has-text-centered-mobile">Infraestructura de almacenamiento y
+                    distribución en condiciones
+                    ambiente y de conservación de frío</p>
+                </div>
+              </div>
+            </div>
+            <div class="column has-text-centered is-hidden-mobile">
+              <p class="title biomedicColor is-2 pt-6 mt-6" style="align-items: center; justify-content: center;">
+                <span class="has-text-weight-bold">¿POR QUÉ SOMOS TU MEJOR OPCIÓN?</span>
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <!-- Tiempo de entrega -->
+  <section class="section has-text-centered py-6">
+    <img class="image" src="src/logo.png" alt="" style="display: block;margin: auto;">
+    <p class="subtitle is-size-5 tiempoEntrega">
+      Tenemos la infraestructura para que tu pedido llegue el mismo día (si es en el centro del país) y entregas
+      foráneas en un plazo máximo de 24 horas.
+    </p>
+  </section>
+  <!-- Swipper -->
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="section slideCustom has-text-centered">
+          <h2 class="title biomedicColor has-text-weight-bold">MISIÓN</h2>
+          <p class="is-size-5 biomedicColor pb-6" style="max-width: 80%;display: block; margin: auto;"><span
+              class="has-text-weight-bold">Comercializamos
+              y entregamos</span> hasta las
+            puertas de nuestros
+            clientes productos farmacéuticos de
+            la más alta calidad.</p>
+          <img class="image" src="src/Mision.png" alt="" style="display: block; margin: auto;">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="section slideCustom has-text-centered">
+          <h2 class="title biomedicColor has-text-weight-bold">VISIÓN</h2>
+          <p class="is-size-5 biomedicColor pb-6" style="max-width: 80%;display: block; margin: auto;"><span
+              class="has-text-weight-bold">Ser una empresa líder</span> en la comercialización y distribución de
+            productos farmacéuticos
+            en Querétaro y ciudades aledañas</p>
+          <img class="image" src="src/Vision.png" alt="" style="display: block; margin: auto;">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="section slideCustom has-text-centered">
+          <h2 class="title biomedicColor has-text-weight-bold">VALORES</h2>
+          <p class="is-size-5 biomedicColor pb-6" style="max-width: 80%;display: block; margin: auto;"><span
+              class="has-text-weight-bold">Responsabilidad, honestidad, servicio, trabajo en equipo, equidad,
+              perseverancia, respeto</p>
+          <img class="image" src="src/Valores.png" alt="" style="display: block; margin: auto;">
+        </div>
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  <!-- Medicamentos de alta especialidad -->
+  <section class="section">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <section class="section has-text-centered">
+          <h2 class="title biomedicColor">Medicamentos de alta especialidad</h2>
+          <div class="columns is-multiline">
+            <div class="column is-one-quarter">
+              <img class="image gallery"
+                src="https://cdn.shopify.com/s/files/1/0492/5577/6409/products/zuridrycisplatino50mg-zurichpharma.jpg?v=1612891871"
+                alt="">
+            </div>
+            <div class="column is-one-quarter">
+              <img class="image gallery"
+                src="https://cdn.shopify.com/s/files/1/0492/5577/6409/products/zuridrycisplatino50mg-zurichpharma.jpg?v=1612891871"
+                alt="">
+            </div>
+            <div class="column is-one-quarter">
+              <img class="image gallery"
+                src="https://cdn.shopify.com/s/files/1/0492/5577/6409/products/zuridrycisplatino50mg-zurichpharma.jpg?v=1612891871"
+                alt="">
+            </div>
+            <div class="column is-one-quarter">
+              <img class="image gallery"
+                src="https://cdn.shopify.com/s/files/1/0492/5577/6409/products/zuridrycisplatino50mg-zurichpharma.jpg?v=1612891871"
+                alt="">
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <!-- Donde estamos -->
+  <section class="section" style="background-color: #FFF;" id="Ubicacion">
+    <div class="columns">
+      <div class="column is-10 is-offset-1">
+        <div class="columns">
+          <div class="column">
+            <h2 class="title biomedicColor has-text-centered-mobile">¿Dónde estamos?</h2>
+            <p class="subtitle biomedicColor has-text-centered-mobile">Loma del Molino No.7, Col. Loma Dorada Querétaro C.P. 76060</p>
+          </div>
+          <div class="column">
+            <div class="columns">
+              <div class="column has-text-centered">
+                <ion-icon size="large" name="mail-outline"></ion-icon>
+                <a href="mailto:ventas@biomedicfarma.com" class="is-size-4">ventas@biomedicfarma.com</a>
+                <a href="mailto:ventas2@biomedicfarma.com" class="is-size-4">ventas2@biomedicfarma.com</a>
+                <a href="mailto:gerencia@biomedicfarma.com" class="is-size-4">gerencia@biomedicfarma.com</a>
+                <a href="mailto:almacen@biomedicfarma.com" class="is-size-4">almacen@biomedicfarma.com</a>
+              </div>
+              <div class="column has-text-centered">
+                <ion-icon size="large" name="phone-portrait-outline"></ion-icon>
+                <br>
+                <a href="tel:+524428048819" class="is-size-4">442 804 88 19</a>
+                <br>
+                <a href="tel:+524422770415" class="is-size-4">442 277 04 15</a>
+              </div>
+              <div class="column has-text-centered">
+                <ion-icon size="large" name="logo-whatsapp"></ion-icon>
+                <br>
+                <a href="https://api.whatsapp.com/send?phone=524428048819&text=Hola%2C%20podria%20proporcionarme%20informaci%C3%B3n"
+                  class="is-size-4">442
+                  602 83 65</a>
+                <br>
+                <a href="https://api.whatsapp.com/send?phone=524772984162&text=Hola%2C%20podria%20proporcionarme%20informaci%C3%B3n"
+                  class="is-size-4">477
+                  298 41 62</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Mapa -->
+  <section class="section p-0">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.884577302223!2d-100.3686419846019!3d20.59277070789356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35b4c9d26c7ab%3A0xe5349efe173de188!2sLoma%20del%20Molino%207%2C%20Loma%20Dorada%2C%2076060%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro.!5e0!3m2!1ses-419!2smx!4v1681086874842!5m2!1ses-419!2smx"
+      style="border:0; width: 100%;height: 40vh;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  <!-- Footer -->
+  <section class="section" style="background-color: #0E2968;">
+    <div class="columns">
+      <div class="column is-10 is-offset-1">
+        <div class="columns">
+          <div class="column has-text-centered-mobile">
+            <a href="https://facebook.com" target="_blank">
+              <ion-icon class="footer-logo" name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://facebook.com" target="_blank">
+              <ion-icon class="footer-logo" name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://facebook.com" target="_blank">
+              <ion-icon class="footer-logo" name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://facebook.com" target="_blank">
+              <ion-icon class="footer-logo" name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://facebook.com" target="_blank">
+              <ion-icon class="footer-logo" name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://facebook.com" target="_blank">
+              <ion-icon class="footer-logo" name="logo-facebook"></ion-icon>
+            </a>
+          </div>
+          <div class="column has-text-right has-text-centered-mobile">
+            <p class="has-text-white">All Rights Reserved 2023 Biomedic Farma</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SCRIPTS -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    function scrollToCustom(id) {
+      const element = document.getElementById(id);
+      element.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+    }
+  </script>
+</body>
+
+</html>

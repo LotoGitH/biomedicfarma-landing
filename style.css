@@ -1,0 +1,135 @@
+body {
+  background-color: #f7f8fb;
+}
+.menu {
+  background-color: transparent;
+}
+
+.navbar-menu a {
+  color: #fff;
+  min-width: 125px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+}
+
+.navbar-menu a:hover {
+  font-weight: bold;
+  color: #fff;
+  background-color: #41ad4c;
+  border-radius: 50px;
+}
+
+.mainBackground {
+  background-image: url("src/Bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .mainBackground {
+    background-position: 10% 0;
+  }
+}
+
+.logoPading {
+  padding: 20% 0;
+}
+
+img.logo {
+  display: block;
+  margin: auto;
+}
+
+.biomedicColor {
+  color: #273171;
+}
+
+p.number {
+  background-color: #41ad4c;
+  color: #fff;
+  font-size: 2.5vw;
+  width: 27%;
+  min-width: 20%;
+  -webkit-box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+  p.number {
+    font-size: 11vw;
+    height: 13vh;
+  }
+}
+
+p.altcolor {
+  background-color: #273171;
+}
+
+.tiempoEntrega {
+  max-width: 50%;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .tiempoEntrega {
+    max-width: 80%;
+  }
+}
+
+.swiper {
+  width: 70%;
+  height: auto;
+  -webkit-box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 768px) {
+  .swiper {
+    width: 90%;
+  }
+}
+
+.slideCustom {
+  background-color: #fff;
+  padding-top: 10%;
+}
+
+.swiper-button-prev {
+  background-color: #273171;
+  color: #fff;
+  width: 8%;
+  height: 20%;
+  border-radius: 50px;
+  -webkit-box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.5);
+}
+
+.swiper-button-next {
+  background-color: #41ad4c;
+  color: #fff;
+  width: 8%;
+  height: 20%;
+  border-radius: 50px;
+  -webkit-box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.5);
+}
+
+img.gallery {
+  -webkit-box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 30px 30px 70px 0px rgba(0, 0, 0, 0.15);
+}
+
+ion-icon.footer-logo {
+  color: #5980c9;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
